@@ -99,20 +99,19 @@ button:hover {
   }
 
   body {
-    width: 300px;
     background-color: hsl(0, 0%, 95%);
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-self: center;
+    height: 0;
   }
 
   main {
     width: 280px;
-    display: flex;
     flex-direction: column;
     border-radius: 10px;
     align-content: center;
+    background-color: transparent;
   }
 
   .card1 {
